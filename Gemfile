@@ -11,6 +11,8 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 # Gems used only for assets and not required
@@ -40,4 +42,8 @@ gem 'thin'
 group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'rb-inotify'
+  gem 'libnotify'
 end
