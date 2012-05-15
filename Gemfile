@@ -12,7 +12,6 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'guard-rspec'
 end
 
 # Gems used only for assets and not required
@@ -46,4 +45,9 @@ group :test do
   gem 'capybara'
   gem 'rb-inotify'
   gem 'libnotify'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork'
+  gem 'factory_girl_rails'
+  gem 'launchy'
 end
